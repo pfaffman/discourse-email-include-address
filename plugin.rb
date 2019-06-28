@@ -24,7 +24,6 @@ if enabled_site_setting
       end
     end
 
-    module AddToMailerExtension
     require_dependency 'user_notifications'
     module ::UserNotificationsOverride
       def send_notification_email(opts)
