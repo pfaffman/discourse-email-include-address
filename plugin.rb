@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # name: DiscourseEmailIncludeAddress
 # about: Add email address to notifications
 # version: 0.1

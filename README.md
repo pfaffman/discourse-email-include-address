@@ -18,3 +18,12 @@ Is at your own risk.
 
 If you have issues or suggestions for the plugin, please bring them up on
 [support.literatecomputing.com](https://support.literatecomputing.com/t/discourse-email-include-address-plugin/373).
+
+## Testing
+
+Tests are run regularly at https://travis-ci.org/github/pfaffman/discourse-email-include-address/
+
+The spec tests only if the `./app/views/email/_post.html.erb` template gets updated in Discourse
+by checking to see if the md5 of that file has changed since the most recent update. There isn't much else that can go wrong.
+
+If it break, I should notice, and if the client who uses it is still using it, I will likely fix it.
